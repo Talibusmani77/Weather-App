@@ -1,0 +1,55 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+body{
+  background-color: rgb(226, 235, 245);
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.SearchBox Button{
+  padding-block: 1rem;
+  border: none;
+  margin-left: 0.5rem;
+}
+
+.InfoBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.InfoBox h1{
+  margin-bottom: 1rem;
+  color: #0b3b62;
+  text-align: center;
+}
+
+.InfoBox p{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.city-name{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
